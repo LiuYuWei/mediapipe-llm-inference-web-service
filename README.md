@@ -17,3 +17,9 @@ Follow the following instructions to run the sample on your device:
 $ docker build -t <dockerhub-name>/mediapipe-llm-inference-web-service:v0.0.1 .
 $ docker run -v .../mediapipe-llm-inference-web-service/gemma-2b-it-gpu-int4.bin:/app/gemma-2b-it-gpu-int4.bin -p 8000:8000 <dockerhub-name>/mediapipe-llm-inference-web-service:v0.0.1
 ```
+
+## Reference
+
+- googlesamples/mediapipe Github Repo:
+
+https://github.com/googlesamples/mediapipe/tree/main/examples/llm_inference/js?fbclid=IwAR1RqS300JyIvs-FVZhNY8CiB-BEY4e5aL8t-0IU7IbWepLUaF8przBwPz8
