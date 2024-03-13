@@ -1,0 +1,22 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Styles for the input section */
+.input-section textarea {
+    height: 300px;
+    width: 600px;
+    margin-bottom: 10px;
+}
+
+.input-section input[type="button"] {
+    cursor: pointer;
+}
+
+/* Styles for the result section */
+.result-section textarea {
+    height: 300px;
+    width: 600px;
+}
